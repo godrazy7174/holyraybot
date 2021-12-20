@@ -291,5 +291,5 @@ async def 멜론차트(ctx):
         await ctx.send("이미 노래가 재생 중이라 노래를 재생할 수 없어요!")
 
 
-bot.run('ODg0OTU3NjI1OTc5MTM4MDg5.YTgDAw.JUJ1nFKUOdpx6NvK0F8mLoj2q60')
+bot.run('ODg0OTU3NjI1OTc5MTM4MDg5.YTgDAw.t_MjgTZnwpLcKlSfO_iLySNq67M')
 
