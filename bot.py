@@ -1,4 +1,3 @@
-import os
 import discord
 from discord import message
 from discord.channel import VoiceChannel
@@ -292,7 +291,5 @@ async def 멜론차트(ctx):
         await ctx.send("이미 노래가 재생 중이라 노래를 재생할 수 없어요!")
 
 
-
-access_token = os.environ['BOT_TOKEN']
-client.run(access_token)
+bot.run('ODg0OTU3NjI1OTc5MTM4MDg5.YTgDAw.JUJ1nFKUOdpx6NvK0F8mLoj2q60')
 
