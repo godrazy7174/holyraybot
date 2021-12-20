@@ -1,3 +1,4 @@
+import os
 import discord
 from discord import message
 from discord.channel import VoiceChannel
@@ -292,6 +293,6 @@ async def 멜론차트(ctx):
 
 
 
-
-bot.run('ODg0OTU3NjI1OTc5MTM4MDg5.YTgDAw.JUJ1nFKUOdpx6NvK0F8mLoj2q60')
+access_token = os.environ["BOT_TOKEN"]
+bot.run(access_token)
 
