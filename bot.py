@@ -294,5 +294,5 @@ async def 멜론차트(ctx):
 
 
 access_token = os.environ['BOT_TOKEN']
-bot.run(access_token)
+client.run(access_token)
 
